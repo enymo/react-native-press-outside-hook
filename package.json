@@ -1,6 +1,6 @@
 {
   "name": "@enymo/react-native-press-outside-hook",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple hook to detect when the user has clicked or tapped outside of specified elements",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -17,7 +17,10 @@
   },
   "tsdown": {
     "entry": "src/index.tsx",
-    "format": ["esm", "cjs"],
+    "format": [
+      "esm",
+      "cjs"
+    ],
     "dts": true
   },
   "scripts": {
